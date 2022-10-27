@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="static/styles.css">
+	<title>Language Detection</title>
+   
+</head>
+<body>
+    <br>
+    <div class="wrapper">
+
+		<form class="paper" method="POST" action="\predict">
+
+			<div class="margin">Language Detection Project using NLP</div>
+			<textarea placeholder="Enter something in any language. I'll guess what language it's in:)" class="text_area" name="text" rows="8" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>
+			<br>
+			<input type="submit" value="Guess Language" class="button">
+
+		</form>
+
+	</div>
+    <h1 class="predi" >{{ pred }}</h1>
+
+</body>
+</html>
