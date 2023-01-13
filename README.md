@@ -1,4 +1,4 @@
-# Language-Detection-using-NLP-and-ML
+# Predicting Language with Machine Learning/NLP: A Flask Web App
 
 In this project, a model that predicts the language of an input text is created.
 
